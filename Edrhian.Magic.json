@@ -1,0 +1,263 @@
+[{
+  "_id": {
+    "$oid": "6533a13cb487c587154f321e"
+  },
+  "name": "ED",
+  "type": "Relic",
+  "rarity": "Special",
+  "ability": "Weaken",
+  "power": 300,
+  "cost": 3000
+},
+{
+  "_id": {
+    "$oid": "6533a13cb487c587154f321f"
+  },
+  "name": "Aven Wind Guide",
+  "type": "Angel",
+  "rarity": "Super Rare",
+  "ability": "Freeze",
+  "power": 50,
+  "cost": 500
+},
+{
+  "_id": {
+    "$oid": "6533a1dab487c587154f3220"
+  },
+  "name": "Realm Seekers",
+  "type": "Floating",
+  "rarity": "Epic",
+  "power": 100,
+  "cost": 1000
+},
+{
+  "_id": {
+    "$oid": "6533a244b487c587154f3221"
+  },
+  "name": "Zom",
+  "type": "Zombie",
+  "rarity": "Special",
+  "power": 100
+},
+{
+  "_id": {
+    "$oid": "6533a584b487c587154f3222"
+  },
+  "name": "Devourer of Worlds",
+  "type": "Angel",
+  "rarity": "Special",
+  "ability": "Freeze",
+  "cost": 2000
+},
+{
+  "_id": {
+    "$oid": "6533a649b487c587154f3223"
+  },
+  "name": "Three eyes",
+  "type": "Angel",
+  "rarity": "Super Rare",
+  "power": 50,
+  "cost": 500
+},
+{
+  "_id": {
+    "$oid": "6534f7918c38586337312dc0"
+  },
+  "name": "A",
+  "type": "Dark",
+  "rarity": "Special",
+  "ability": "Revive",
+  "power": 100,
+  "cost": 1000
+},
+{
+  "_id": {
+    "$oid": "6536e61e29e80e01e7d719d6"
+  },
+  "name": "Zombz",
+  "type": "Zombie",
+  "rarity": "Epic",
+  "ability": "0",
+  "power": 230,
+  "cost": 0
+},
+{
+  "_id": {
+    "$oid": "6536e6b2f8cbac38d1ebf4b9"
+  },
+  "name": "Bee",
+  "type": "Floating",
+  "rarity": "Special",
+  "ability": "0",
+  "power": 1000
+},
+{
+  "_id": {
+    "$oid": "6536e72446021c1534b8b25d"
+  },
+  "name": "Bee2",
+  "type": "Floating",
+  "rarity": "Special",
+  "ability": "0",
+  "power": 1300
+},
+{
+  "_id": {
+    "$oid": "6536e75f4935a801ff0cced5"
+  },
+  "name": "Prova",
+  "type": "Prova",
+  "rarity": "Prova",
+  "ability": "0",
+  "power": 1
+},
+{
+  "_id": {
+    "$oid": "6536e7a5017d08160061960b"
+  },
+  "name": "Prova",
+  "type": "Prova",
+  "rarity": "Prova",
+  "ability": "Prova",
+  "power": 1
+},
+{
+  "_id": {
+    "$oid": "6536e7c6b89ac545458c6a95"
+  },
+  "name": "Prova",
+  "type": "Prova",
+  "rarity": "Prova",
+  "ability": "0",
+  "power": 3,
+  "cost": 3
+},
+{
+  "_id": {
+    "$oid": "6536e80d79a3e842f120bd17"
+  },
+  "name": "Prova",
+  "type": "Prova",
+  "rarity": "Prova",
+  "ability": "null",
+  "power": 4
+},
+{
+  "_id": {
+    "$oid": "6536e8e9ce52ce537ebd545f"
+  },
+  "name": "Prova",
+  "type": "Prova",
+  "rarity": "Prova",
+  "power": 10000
+},
+{
+  "_id": {
+    "$oid": "65377c5f8570f2324d0436ad"
+  },
+  "name": "Juan",
+  "type": "Human",
+  "rarity": "Legendary",
+  "ability": "Eat",
+  "power": 1000,
+  "cost": 10000
+},
+{
+  "_id": {
+    "$oid": "65377c9422c157188bfa26ab"
+  },
+  "name": "Black Hole",
+  "type": "Dark",
+  "rarity": "Epic",
+  "ability": "Massive Damage",
+  "power": 100000,
+  "cost": 10000000
+},
+{
+  "_id": {
+    "$oid": "65377d01b6201830daf38c1e"
+  },
+  "name": "Phoenix",
+  "type": "Mithycal",
+  "rarity": "Special",
+  "ability": "Revive",
+  "power": 1000,
+  "cost": 10000
+},
+{
+  "_id": {
+    "$oid": "65377d15b6201830daf38c1f"
+  },
+  "name": "Angel of Light",
+  "type": "Angel",
+  "rarity": "Epic",
+  "ability": "Heal",
+  "power": 500,
+  "cost": 4000
+},
+{
+  "_id": {
+    "$oid": "65377d42b6201830daf38c20"
+  },
+  "name": "Wise Tree",
+  "type": "Mythical",
+  "rarity": "Super Rare",
+  "power": 10
+},
+{
+  "_id": {
+    "$oid": "65377d91b6201830daf38c21"
+  },
+  "name": "Sun",
+  "type": "Light",
+  "rarity": "Legendary",
+  "ability": "Burn",
+  "power": 4500
+},
+{
+  "_id": {
+    "$oid": "65377e05d1cdd84ed0c10ab9"
+  },
+  "name": "Mother",
+  "type": "Mythical",
+  "rarity": "Legendary",
+  "power": 900000
+},
+{
+  "_id": {
+    "$oid": "65377e35d1cdd84ed0c10aba"
+  },
+  "name": "Stone Golem",
+  "type": "Mythical",
+  "rarity": "Rare",
+  "ability": "Extra Defense",
+  "power": 3000,
+  "cost": 30000
+},
+{
+  "_id": {
+    "$oid": "65377e59d1cdd84ed0c10abb"
+  },
+  "name": "Flower",
+  "type": "Earth",
+  "rarity": "Special",
+  "power": 1
+},
+{
+  "_id": {
+    "$oid": "65377efcd1cdd84ed0c10abc"
+  },
+  "name": "Gabriel",
+  "type": "Angel",
+  "power": 6050,
+  "cost": 13040
+},
+{
+  "_id": {
+    "$oid": "65377f20d1cdd84ed0c10abd"
+  },
+  "name": "UFO",
+  "type": "Floating",
+  "power": 3000,
+  "cost": 300000
+}]
