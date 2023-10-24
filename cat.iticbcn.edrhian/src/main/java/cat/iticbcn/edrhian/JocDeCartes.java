@@ -24,22 +24,54 @@ public class JocDeCartes {
     	MongoDatabase database = mongoClient.getDatabase("Edrhian");
         MongoCollection<Document> collection = database.getCollection("Magic");
         
-        InsertOneResult result = collection.insertOne(new Document() 
-        		.append("_id", new ObjectId())
-        		.append("name", name)
-        		.append("type", type)
-        		.append("rarity", rarity)
-        		.append("ability", ability)
-        		.append("power", power)
-        		.append("cost", cost));
+        //CASOS EN QUE ELS CAMPS OPCIONALS NO ES DECLARIN
+        if(!ability.equals("0") && cost != 0) {
+        	InsertOneResult result = collection.insertOne(new Document() 
+            		.append("_id", new ObjectId())
+            		.append("name", name)
+            		.append("type", type)
+            		.append("rarity", rarity)
+            		.append("ability", ability)
+            		.append("power", power)
+            		.append("cost", cost));
+            
+            System.out.println("Id del document insertat: " + result.getInsertedId());
+        } else if(ability.equals("0") && cost == 0){
+        	InsertOneResult result = collection.insertOne(new Document() 
+            		.append("_id", new ObjectId())
+            		.append("name", name)
+            		.append("type", type)
+            		.append("rarity", rarity)
+            		.append("power", power));
+        	
+            
+            System.out.println("Id del document insertat: " + result.getInsertedId());
+        } else if(ability.equals("0")) {
+        	InsertOneResult result = collection.insertOne(new Document() 
+            		.append("_id", new ObjectId())
+            		.append("name", name)
+            		.append("type", type)
+            		.append("power", power)
+            		.append("cost", cost));
+            
+            System.out.println("Id del document insertat: " + result.getInsertedId());
+        } else if(cost == 0) {
+        	InsertOneResult result = collection.insertOne(new Document() 
+            		.append("_id", new ObjectId())
+            		.append("name", name)
+            		.append("type", type)
+            		.append("rarity", rarity)
+            		.append("ability", ability)
+            		.append("power", power));
+            
+            System.out.println("Id del document insertat: " + result.getInsertedId());
+        }
         
-        System.out.println("Id del document insertat: " + result.getInsertedId());
     }
     
     public static void getCartesTipus(MongoClient mongoClient, String tipus) {
         MongoDatabase database = mongoClient.getDatabase("Edrhian");
         MongoCollection<Document> collection = database.getCollection("Magic");
-
         
         FindIterable<Document> doc = collection.find(Filters.eq("type",tipus)).sort(ascending("name"));
 
@@ -62,7 +94,7 @@ public class JocDeCartes {
                     + "2-Insertar nova carta \n"
                     + "3-Sortir del programa \n");
             opcio = sc.nextInt();
-            
+            sc.nextLine();
             if(opcio == 1) {
             	System.out.println("Escriu el tipus de carta: ");
             	String tipus = sc.next();
@@ -82,16 +114,16 @@ public class JocDeCartes {
             	System.out.println("Afageix una carta");
             	
             	System.out.println("Nom: ");
-            	name = sc.next();
+            	name = sc.nextLine();
             	
             	System.out.println("Tipus: ");
-            	type = sc.next();
+            	type = sc.nextLine();
             	
             	System.out.println("Raresa: ");
-            	rarity = sc.next();
+            	rarity = sc.nextLine();
             	
             	System.out.println("Habilitat: ");
-            	ability = sc.next();
+            	ability = sc.nextLine();
             	
             	System.out.println("Poder: ");
             	power = sc.nextInt();
@@ -104,7 +136,7 @@ public class JocDeCartes {
             } else if(opcio == 3) {
             	break;
             } else {
-            	
+            	System.out.println("No es una opcio correcta");
             }
         }
         
